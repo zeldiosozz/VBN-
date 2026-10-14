@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 4, "column": 0}, "map": {"version":3,"sources":["file:///home/z/Documents/designs/New%20Folder%203/app/(home)/layout.tsx"],"sourcesContent":["export default function HomeLayout({ children }: Readonly<{ children: React.ReactNode }>) {\n  return children;\n}\n"],"names":["HomeLayout","children"],"mappings":";;;;AAAe,SAASA,WAAW,EAAEC,QAAQ,EAA2C;IACtF,OAAOA;AACT"}}]
+}
