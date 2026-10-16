@@ -35,7 +35,7 @@ export default function ComparisonSection({ dictionary }: { dictionary: Dictiona
           </span>
           <h2 id="comparison-title" className="mx-auto mt-7 max-w-[720px] text-[clamp(2.35rem,3.7vw,3.25rem)] font-bold leading-[1.12] tracking-[-0.035em]">
             <span className="block">{copy.title}</span>
-            <span className="block bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent">{copy.highlight}</span>
+            <span className="gold-highlight block">{copy.highlight}</span>
           </h2>
           <p className="mt-6 text-[15px] leading-6 text-white/95 sm:text-[16px]">
             {copy.description}

@@ -84,7 +84,7 @@ export default function ProcessSection({ dictionary, locale }: { dictionary: Dic
             {copy.badge}
           </span>
           <h2 id="process-title" className="mt-6 text-[clamp(2.25rem,3.55vw,3.25rem)] font-bold leading-[1.14] tracking-[-0.035em]">
-            {copy.title} <span className="bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent">{copy.highlight}</span>
+            {copy.title} <span className="gold-highlight">{copy.highlight}</span>
           </h2>
           <p className="mx-auto mt-5 max-w-[680px] text-[15px] leading-[1.7] text-white/95 sm:text-[16px]">
             {copy.description}

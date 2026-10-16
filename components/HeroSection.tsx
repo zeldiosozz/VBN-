@@ -119,7 +119,7 @@ export default function HeroSection({ dictionary, locale }: { dictionary: Dictio
         <h1 id="hero-title" className="max-w-[1000px] text-[clamp(2.65rem,5.1vw,4.5rem)] font-bold leading-[1.08] tracking-[-0.035em]">
           <span className="block"> 
             {copy.titleLead}
-            <span className="bg-[#ffe62e] bg-clip-text text-transparent">
+            <span className="gold-highlight">
               {copy.titleHighlight}
           </span>
           </span>

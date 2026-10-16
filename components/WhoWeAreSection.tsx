@@ -21,7 +21,7 @@ export default function WhoWeAreSection({ dictionary }: { dictionary: Dictionary
 
         <h2 id="who-we-are-title" className="mt-7 text-[clamp(2.25rem,3.55vw,3.25rem)] font-bold leading-[1.13] tracking-[-0.035em]">
           <span className="block">{copy.title}</span>
-          <span className="block bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent">
+          <span className="gold-highlight block">
             {copy.highlight}
           </span>
         </h2>

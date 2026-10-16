@@ -23,7 +23,7 @@ export default function FAQSection({ dictionary }: { dictionary: Dictionary }) {
             {copy.badge}
           </span>
           <h2 id="faq-title" className="mt-6 text-[clamp(2.2rem,3.5vw,3.2rem)] font-bold leading-[1.14] tracking-[-0.035em]">
-            {copy.title} <span className="bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent">{copy.highlight}</span>
+            {copy.title} <span className="gold-highlight">{copy.highlight}</span>
           </h2>
           <p className="mt-5 text-[15px] leading-6 text-white/95 sm:text-[16px]">
             {copy.description}

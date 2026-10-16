@@ -25,7 +25,7 @@ export default function FinalCtaFooter({ dictionary }: { dictionary: Dictionary 
         <div className="mx-auto max-w-[1140px] rounded-[17px] p-[1px] ">
           <div className="rounded-[16px] bg-[#111111] px-5 py-12 text-center sm:min-h-[402px] sm:px-12 sm:pb-14 sm:pt-[62px]">
             <h2 id="final-cta-title" className="mx-auto max-w-[900px] text-[clamp(2.2rem,3.65vw,3.25rem)] font-bold leading-[1.12] tracking-[-0.035em]">
-            {copy.cta} <span className="bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent">{copy.highlight}</span>
+            {copy.cta} <span className="gold-highlight">{copy.highlight}</span>
               <span className="block">{copy.start}</span>
             </h2>
             <p className="mx-auto mt-5 max-w-[540px] text-[15px] leading-[1.7] text-white/95 sm:text-[16px]">

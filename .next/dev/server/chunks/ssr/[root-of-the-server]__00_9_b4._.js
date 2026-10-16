@@ -373,7 +373,7 @@ function ComparisonSection({ dictionary }) {
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "block bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                                    className: "gold-highlight block",
                                     children: copy.highlight
                                 }, void 0, false, {
                                     fileName: "[project]/components/ComparisonSection.tsx",
@@ -568,7 +568,7 @@ function FinalCtaFooter({ dictionary }) {
                                     copy.cta,
                                     " ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                                        className: "gold-highlight",
                                         children: copy.highlight
                                     }, void 0, false, {
                                         fileName: "[project]/components/FinalCtaFooter.tsx",
@@ -1415,7 +1415,7 @@ function HeroSection({ dictionary, locale }) {
                                 children: [
                                     copy.titleLead,
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                        className: "bg-[#ffe62e] bg-clip-text text-transparent",
+                                        className: "gold-highlight",
                                         children: copy.titleHighlight
                                     }, void 0, false, {
                                         fileName: "[project]/components/HeroSection.tsx",
@@ -1652,7 +1652,7 @@ function PricingSection({ dictionary, locale }) {
                         copy.title,
                         " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                            className: "gold-highlight",
                             children: copy.highlight
                         }, void 0, false, {
                             fileName: "[project]/components/PricingSection.tsx",
@@ -1925,7 +1925,7 @@ function ProcessSection({ dictionary, locale }) {
                                 copy.title,
                                 " ",
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                    className: "bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                                    className: "gold-highlight",
                                     children: copy.highlight
                                 }, void 0, false, {
                                     fileName: "[project]/components/ProcessSection.tsx",
@@ -2077,7 +2077,7 @@ function ServicesSection({ dictionary, locale }) {
                         copy.title,
                         " ",
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                            className: "gold-highlight",
                             children: copy.highlight
                         }, void 0, false, {
                             fileName: "[project]/components/ServicesSection.tsx",
@@ -2289,7 +2289,7 @@ function WhoWeAreSection({ dictionary }) {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                            className: "block bg-gradient-to-r from-[#ffe22c] via-[#ff882e] to-[#ff2937] bg-clip-text text-transparent",
+                            className: "gold-highlight block",
                             children: copy.highlight
                         }, void 0, false, {
                             fileName: "[project]/components/WhoWeAreSection.tsx",
