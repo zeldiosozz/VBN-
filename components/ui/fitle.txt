@@ -30,3 +30,9 @@ https://www.aidesigner.ai/backgrounds/dither/remix
    import Script from "next/script" */}
 <Script src="https://cdn.aidesigner.ai/effects/runtime/v1.js" strategy="afterInteractive" />
 
+
+
+- 22 design facebook
+- 4 reels.
+- sponsering on marketing 8k on reels.
+- budget 25K.
