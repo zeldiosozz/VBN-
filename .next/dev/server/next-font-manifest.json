@@ -1,11 +1,5 @@
 {
   "app": {
-    "[project]/app/(home)/page": [
-      "static/media/noto_sans_regular-s.p.02_ar961vi1bt.ttf",
-      "static/media/noto_sans_medium-s.p.3xrbe18s9eg03.ttf",
-      "static/media/noto_sans_semibold-s.p.2trjdu3smxgm8.ttf",
-      "static/media/noto_sans_bold-s.p.0p0b5_nm72kg0.ttf"
-    ],
     "[project]/app/[locale]/[category]/[slug]/page": [
       "static/media/noto_sans_regular-s.p.02_ar961vi1bt.ttf",
       "static/media/noto_sans_medium-s.p.3xrbe18s9eg03.ttf",

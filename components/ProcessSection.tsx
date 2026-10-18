@@ -2,7 +2,7 @@ import React from "react";
 import type { Dictionary, Locale } from "../lib/dictionaries";
 import { DotLottieReact } from '@lottiefiles/dotlottie-react';
 
-const stepIcons = ["analyze", "Search for value", "buildweb"];
+const stepIcons = ["analyze", "Search for value", "Money"];
 // const stepIcons = ["puzzle", "gear", "trophy"];
 const stepSlugs = ["audit", "launch", "optimize"];
 

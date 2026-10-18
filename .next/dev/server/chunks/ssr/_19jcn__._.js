@@ -506,18 +506,18 @@ const dictionaries = {
             demo: "احجز عرضًا توضيحيًا",
             details: "تفاصيل الخطة",
             features: [
-                "أفكار وميزات بلا حدود",
-                "ملاحظات بلا حدود",
-                "اقتراحات الذكاء الاصطناعي",
+                "٢٢ تصميم فيسبوك",
+                "٤ ريلز",
+                "حملة اعلانية للتوعية",
                 "تكامل مع CRM",
                 "إدارة الملاحظات من Slack وHubSpot",
                 "قناة Slack مخصصة"
             ],
             plans: [
                 {
-                    name: "المبتدئة",
-                    price: "مجانًا",
-                    cadence: "",
+                    name: "الفضية",
+                    price: "25K EGP",
+                    cadence: "/شهرياً",
                     billing: "مجانية دائمًا",
                     unavailable: [
                         3,
@@ -526,8 +526,8 @@ const dictionaries = {
                     ]
                 },
                 {
-                    name: "المؤسسات",
-                    price: "$40",
+                    name: "البرونزية",
+                    price: "32K EGP",
                     cadence: "/شهريًا",
                     billing: "الفوترة سنوية",
                     unavailable: [
@@ -536,8 +536,8 @@ const dictionaries = {
                     ]
                 },
                 {
-                    name: "حسب المشروع",
-                    price: "$100",
+                    name: "الذهبية",
+                    price: "42K EGP",
                     cadence: "/شهريًا",
                     billing: "الفوترة سنوية",
                     unavailable: []

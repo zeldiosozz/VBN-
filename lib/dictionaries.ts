@@ -160,11 +160,11 @@ export const dictionaries = {
     },
     pricing: {
       badge: "خطط الأسعار", title: "خطط مرنة", highlight: "لنمو أعمالك", description: "اختر الخطة المناسبة لك.", included: "ما الذي تتضمنه الخطة", demo: "احجز عرضًا توضيحيًا", details: "تفاصيل الخطة",
-      features: ["أفكار وميزات بلا حدود", "ملاحظات بلا حدود", "اقتراحات الذكاء الاصطناعي", "تكامل مع CRM", "إدارة الملاحظات من Slack وHubSpot", "قناة Slack مخصصة"],
+      features: ["٢٢ تصميم فيسبوك", "٤ ريلز", "حملة اعلانية للتوعية", "تكامل مع CRM", "إدارة الملاحظات من Slack وHubSpot", "قناة Slack مخصصة"],
       plans: [
-        { name: "المبتدئة", price: "مجانًا", cadence: "", billing: "مجانية دائمًا", unavailable: [3, 4, 5] },
-        { name: "المؤسسات", price: "$40", cadence: "/شهريًا", billing: "الفوترة سنوية", unavailable: [4, 5] },
-        { name: "حسب المشروع", price: "$100", cadence: "/شهريًا", billing: "الفوترة سنوية", unavailable: [] },
+        { name: "الفضية", price: "25K EGP", cadence: "/شهرياً", billing: "مجانية دائمًا", unavailable: [3, 4, 5] },
+        { name: "البرونزية", price: "32K EGP", cadence: "/شهريًا", billing: "الفوترة سنوية", unavailable: [4, 5] },
+        { name: "الذهبية", price: "42K EGP", cadence: "/شهريًا", billing: "الفوترة سنوية", unavailable: [] },
       ],
     },
     faq: {

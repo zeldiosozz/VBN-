@@ -88,7 +88,7 @@ function loadVanta() {
     vantaPromise ??= threePromise.then(()=>loadScript(VANTA_SCRIPT));
     return vantaPromise;
 }
-function SiteWavesBackground() {
+function SiteWavesBackground({ color = 0x0, backgroundColor = 0x111111 }) {
     const hostRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRef"])(null);
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useEffect"])(()=>{
         const host = hostRef.current;
@@ -111,8 +111,8 @@ function SiteWavesBackground() {
                     minWidth: 200,
                     scale: 1,
                     scaleMobile: 1,
-                    color: 0x0,
-                    backgroundColor: 0x111111
+                    color: color,
+                    backgroundColor: backgroundColor
                 });
             } catch  {
             // Keep the theme-colored CSS background visible if either CDN script fails.
@@ -140,7 +140,7 @@ function SiteWavesBackground() {
         className: "site-waves-background theme-component pointer-events-none fixed inset-0 z-0 overflow-hidden"
     }, void 0, false, {
         fileName: "[project]/components/SiteWavesBackground.tsx",
-        lineNumber: 109,
+        lineNumber: 116,
         columnNumber: 10
     }, this);
 }

@@ -1598,7 +1598,14 @@ __turbopack_context__.s([
     ()=>PricingSection
 ]);
 var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/node_modules/next/dist/server/route-modules/app-page/vendored/rsc/react-jsx-dev-runtime.js [app-rsc] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SiteWavesBackground$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/components/SiteWavesBackground.tsx [app-rsc] (ecmascript)");
 ;
+;
+let colorPlatte = [
+    0x5c5c5c,
+    0x825f40,
+    0x967100
+];
 function CheckIcon() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
         className: "grid h-5 w-5 shrink-0 place-items-center rounded-full bg-white text-[#0d554e]",
@@ -1615,17 +1622,17 @@ function CheckIcon() {
                 strokeLinejoin: "round"
             }, void 0, false, {
                 fileName: "[project]/components/PricingSection.tsx",
-                lineNumber: 8,
+                lineNumber: 15,
                 columnNumber: 9
             }, this)
         }, void 0, false, {
             fileName: "[project]/components/PricingSection.tsx",
-            lineNumber: 7,
+            lineNumber: 14,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/PricingSection.tsx",
-        lineNumber: 6,
+        lineNumber: 13,
         columnNumber: 5
     }, this);
 }
@@ -1642,7 +1649,7 @@ function PricingSection({ dictionary, locale }) {
                     children: copy.badge
                 }, void 0, false, {
                     fileName: "[project]/components/PricingSection.tsx",
-                    lineNumber: 23,
+                    lineNumber: 31,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1656,13 +1663,13 @@ function PricingSection({ dictionary, locale }) {
                             children: copy.highlight
                         }, void 0, false, {
                             fileName: "[project]/components/PricingSection.tsx",
-                            lineNumber: 27,
+                            lineNumber: 35,
                             columnNumber: 24
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/PricingSection.tsx",
-                    lineNumber: 26,
+                    lineNumber: 34,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1670,24 +1677,39 @@ function PricingSection({ dictionary, locale }) {
                     children: copy.description
                 }, void 0, false, {
                     fileName: "[project]/components/PricingSection.tsx",
-                    lineNumber: 29,
+                    lineNumber: 37,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 lg:gap-6",
                     children: copy.plans.map((plan, planIndex)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
-                            className: `flex min-h-[550px] flex-col rounded-[16px] border border-white/[0.12] p-5 sm:min-h-[558px] ${planIndex === 1 ? "bg-[#181818]" : "bg-[#111111]"}`,
+                            className: `relative isolate  flex min-h-[550px] flex-col overflow-hidden rounded-[16px] border border-white/[0.12] p-5 sm:min-h-[558px] ${planIndex === 1 ? "bg-[#181818]" : "bg-[#111111]"}`,
                             children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                    className: "absolute inset-0 -z-10 pointer-events-none backdrop-blur-md",
+                                    "aria-hidden": "true",
+                                    children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$components$2f$SiteWavesBackground$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {
+                                        color: colorPlatte[planIndex]
+                                    }, void 0, false, {
+                                        fileName: "[project]/components/PricingSection.tsx",
+                                        lineNumber: 57,
+                                        columnNumber: 11
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/components/PricingSection.tsx",
+                                    lineNumber: 53,
+                                    columnNumber: 1
+                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
-                                    className: "text-[18px] font-semibold leading-6",
+                                    className: "text-[18px] font-semibold leading-6 backdrop-blur-md bg-black/20 w-fit px-4 py-2 rounded-xl",
                                     children: plan.name
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 37,
+                                    lineNumber: 62,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "mt-5 flex items-baseline gap-2",
+                                    className: "mt-5 flex items-baseline gap-2 backdrop-blur-md bg-black/20 w-fit px-4 py-2 rounded-xl",
                                     children: [
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("bdi", {
                                             dir: "ltr",
@@ -1695,7 +1717,7 @@ function PricingSection({ dictionary, locale }) {
                                             children: plan.price
                                         }, void 0, false, {
                                             fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 67,
                                             columnNumber: 17
                                         }, this),
                                         plan.cadence && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1704,28 +1726,20 @@ function PricingSection({ dictionary, locale }) {
                                             children: plan.cadence
                                         }, void 0, false, {
                                             fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 40,
+                                            lineNumber: 68,
                                             columnNumber: 34
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 38,
-                                    columnNumber: 15
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "mt-2 text-[15px] leading-6 text-white/70",
-                                    children: plan.billing
-                                }, void 0, false, {
-                                    fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 42,
+                                    lineNumber: 63,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "mt-4 h-px bg-white/[0.12]"
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 43,
+                                    lineNumber: 72,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1733,11 +1747,11 @@ function PricingSection({ dictionary, locale }) {
                                     children: copy.included
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 44,
+                                    lineNumber: 73,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("ul", {
-                                    className: "mt-4 flex flex-col gap-[17px]",
+                                    className: "mt-4 flex flex-col gap-[17px] backdrop-blur-md bg-black/20 w-fit px-4 py-2 rounded-xl",
                                     children: copy.features.map((feature, index)=>{
                                         const unavailable = plan.unavailable.includes(index);
                                         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
@@ -1745,7 +1759,7 @@ function PricingSection({ dictionary, locale }) {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(CheckIcon, {}, void 0, false, {
                                                     fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 50,
+                                                    lineNumber: 79,
                                                     columnNumber: 23
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1753,19 +1767,19 @@ function PricingSection({ dictionary, locale }) {
                                                     children: feature
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/PricingSection.tsx",
-                                                    lineNumber: 51,
+                                                    lineNumber: 80,
                                                     columnNumber: 23
                                                 }, this)
                                             ]
                                         }, feature, true, {
                                             fileName: "[project]/components/PricingSection.tsx",
-                                            lineNumber: 49,
+                                            lineNumber: 78,
                                             columnNumber: 21
                                         }, this);
                                     })
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 45,
+                                    lineNumber: 74,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -1774,42 +1788,42 @@ function PricingSection({ dictionary, locale }) {
                                         "enterprise",
                                         "project-based"
                                     ][planIndex]}`,
-                                    className: "mt-auto mb-3 text-center text-[14px] font-semibold text-white/75 underline decoration-white/30 underline-offset-4 transition hover:text-white",
+                                    className: "mt-auto mb-3 text-center text-[14px] font-semibold text-white/75 underline decoration-white/30 underline-offset-4 transition hover:text-white ",
                                     children: copy.details
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 56,
+                                    lineNumber: 86,
                                     columnNumber: 15
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                     href: "#demo",
-                                    className: "theme-component pricing-cta mt-auto mb-3 block rounded-[8px] px-4 py-[13px] text-center text-[15px] font-medium leading-5",
+                                    className: "theme-component pricing-cta mt-auto mb-3 block rounded-[8px] px-4 py-[13px] text-center text-[15px] font-medium leading-5 backdrop-blur-md bg-black/20  px-4 py-2 rounded-xl",
                                     children: copy.demo
                                 }, void 0, false, {
                                     fileName: "[project]/components/PricingSection.tsx",
-                                    lineNumber: 57,
+                                    lineNumber: 87,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, plan.name, true, {
                             fileName: "[project]/components/PricingSection.tsx",
-                            lineNumber: 33,
+                            lineNumber: 42,
                             columnNumber: 13
                         }, this))
                 }, void 0, false, {
                     fileName: "[project]/components/PricingSection.tsx",
-                    lineNumber: 31,
+                    lineNumber: 39,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/PricingSection.tsx",
-            lineNumber: 22,
+            lineNumber: 30,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/components/PricingSection.tsx",
-        lineNumber: 18,
+        lineNumber: 25,
         columnNumber: 5
     }, this);
 }
@@ -1828,7 +1842,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f40$lottiefile
 const stepIcons = [
     "analyze",
     "Search for value",
-    "buildweb"
+    "Money"
 ];
 // const stepIcons = ["puzzle", "gear", "trophy"];
 const stepSlugs = [

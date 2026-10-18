@@ -50,8 +50,15 @@ function loadVanta() {
   vantaPromise ??= threePromise.then(() => loadScript(VANTA_SCRIPT));
   return vantaPromise;
 }
-
-export default function SiteWavesBackground() {
+interface SiteWavesBackgroundProps {
+  color?: number;          // e.g. 0xffbf00
+  backgroundColor?: number; // e.g. 0x2b1055
+  waveSpeed?: number;      // e.g. 1.0
+}
+export default function SiteWavesBackground({
+  color = 0x0,
+  backgroundColor = 0x111111,
+}: SiteWavesBackgroundProps) {
   const hostRef = useRef<HTMLDivElement>(null);
 
   useEffect(() => {
@@ -79,8 +86,8 @@ export default function SiteWavesBackground() {
           minWidth: 200,
           scale: 1,
           scaleMobile: 1,
-          color: 0x0,
-          backgroundColor: 0x111111,
+          color: color,
+          backgroundColor: backgroundColor,
         });
       } catch {
         // Keep the theme-colored CSS background visible if either CDN script fails.
